@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio y Presentación de Jonagu">
+    <title>Jonagu | Desarrollador</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Fuentes de Google: Outfit para un toque moderno -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome para los iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Efectos de fondo animados -->
+    <div class="bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <!-- Navegación Glassmorphism -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Jonagu<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+            </ul>
+            <a href="#contacto" class="btn btn-nav">Hablemos</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Sección Hero -->
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <span class="greeting">¡Hola a todos! 👋</span>
+                <h1 class="title">Soy <span class="gradient-text">Jonagu</span></h1>
+                <h2 class="subtitle">Desarrollador de Software</h2>
+                <p class="description">
+                    Me apasiona transformar ideas en soluciones digitales atractivas y funcionales. 
+                    Especializado en crear arquitecturas robustas y experiencias de usuario excepcionales.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#proyectos" class="btn btn-primary">Ver mis proyectos <i class="fa-solid fa-arrow-right"></i></a>
+                    <div class="social-links">
+                        <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visuals">
+                <div class="glass-card main-card">
+                    <div class="card-header">
+                        <div class="dots">
+                            <span></span><span></span><span></span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <pre><code><span class="keyword">class</span> <span class="class-name">Developer</span> {
+    <span class="keyword">constructor</span>() {
+        <span class="this">this</span>.name = <span class="string">'Jonagu'</span>;
+        <span class="this">this</span>.coffee = <span class="boolean">true</span>;
+    }
+    
+    <span class="method">code</span>() {
+        <span class="keyword">return</span> <span class="string">"Magia ✨"</span>;
+    }
+}</code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Sobre Mí -->
+        <section id="sobre-mi" class="about">
+            <div class="section-header">
+                <h2>Sobre <span class="gradient-text">Mí</span></h2>
+            </div>
+            <div class="about-content glass-panel">
+                <p>
+                    Soy un desarrollador con experiencia en diversas tecnologías, desde el backend con Python y Django, 
+                    hasta la creación de interfaces interactivas y desarrollo de videojuegos con Unity.
+                </p>
+                <p>
+                    Mi enfoque se basa en escribir código limpio, escalable y mantenible. Siempre estoy en constante 
+                    aprendizaje, explorando nuevas herramientas y paradigmas para mejorar mis habilidades.
+                </p>
+            </div>
+        </section>
+
+        <!-- Sección Habilidades -->
+        <section id="habilidades" class="skills">
+            <div class="section-header">
+                <h2>Mis <span class="gradient-text">Habilidades</span></h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fa-brands fa-python" style="color: #3776AB;"></i>
+                    <h3>Python / Django</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-js" style="color: #F7DF1E;"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-html5" style="color: #E34F26;"></i>
+                    <h3>HTML / CSS</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-unity" style="color: #ffffff;"></i>
+                    <h3>Unity / C#</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-git-alt" style="color: #F05032;"></i>
+                    <h3>Git / GitHub</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-database" style="color: #336791;"></i>
+                    <h3>SQL / Bases de Datos</h3>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contacto (Call to Action) -->
+        <section id="contacto" class="contact">
+            <div class="glass-panel contact-panel">
+                <h2>¿Tienes un proyecto en mente?</h2>
+                <p>Estoy siempre abierto a discutir nuevos proyectos, ideas creativas o dar vida a tus visiones.</p>
+                <a href="mailto:tu-correo@ejemplo.com" class="btn btn-primary">Contáctame <i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Jonagu. Creado con ❤️ y mucho café.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
